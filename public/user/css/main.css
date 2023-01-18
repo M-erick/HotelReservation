@@ -202,7 +202,11 @@ figure {margin: 0;}
 /************************************
         Header
 *************************************/
-#xp-wrapper{position: relative;}
+#xp-wrapper
+{
+    position: relative;
+    background-color: #000;
+}
 #header{
     left: 0;
     position: absolute;
@@ -720,10 +724,15 @@ figure {margin: 0;}
     text-transform: uppercase;
     padding-top: 30px;
 }
+#xp-footer .footer-inner img
+{
+    width: 50%;
+    height: 50%;
+}
 #xp-footer .footer-inner span,
 #xp-footer .footer-inner a{
     font-family: tinos;
-    color: #ec1c33;
+    color: #fcfcfc;
 }
 #xp-footer .footer-inner ul{
     text-align: right;
@@ -736,7 +745,7 @@ figure {margin: 0;}
 }
 #xp-footer .footer-inner ul li:last-child{margin-right: 0;}
 #xp-footer .footer-inner ul li a{
-    color: #fff;
+    color: rgb(71, 64, 64);
     font-size: 13px;
     font-family: "Tinos",serif;
     font-weight: bold;
@@ -787,9 +796,13 @@ figure {margin: 0;}
     text-align: center;
     margin-bottom: 46px;
 }
+.services-inner .image-holder img
+{
+    width: 100%;
+}
 .services-inner .text-box{margin-top: 36px;}
 .services-inner .text-box h3 a{
-    color: #333;
+    color: rgb(80, 72, 72);
     margin-bottom: 5px;
     text-transform: uppercase;
     display: block;

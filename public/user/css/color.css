@@ -10,11 +10,9 @@
 .count-meter-innar p,
 span,
 .hotels-team-inner .team-colum h4,
-#xp-footer .footer-inner ul li a:hover,
 .ourpackage-inare .text-box p,
 .ourpackage-inare .text-box ul li a,
 .services-inner .text-box p,
-.services-inner .text-box h3 a:hover,
 .package-price .badroom-package p,
 .package-detail-left .price-detail p,
 .room-feature p,
@@ -33,7 +31,6 @@ span,
 .room-selector ul li i,
 .Checkout-deluxe .text-box p,
 .Checkout-guest p,
-.full-navgtion-left ul li a:hover,
 .full-navgtion-left ul li:hover a,
 .full-navgtion-left ul li i,
 /*.enter-search p,*/
@@ -48,8 +45,6 @@ span,
 /*#footer p span,
 #footer p a,*/
 .folow-us ul li a:hover,
-#xp-footer .footer-inner span,
-#xp-footer .footer-inner a,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .video-bg-inner .text-box-right > h2,
@@ -73,3 +68,13 @@ span,
 /*=============================================
             Theme border Color
 =============================================*/
+
+.services-inner .text-box h3 a:hover,
+.full-navgtion-left ul li a:hover,
+#xp-footer .footer-inner ul li a:hover,
+#xp-footer .footer-inner span,
+#xp-footer .footer-inner a
+
+{
+    color: white;
+}
