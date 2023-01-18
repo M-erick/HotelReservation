@@ -43,7 +43,6 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-10">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="{{ asset('user/images/logo-2.png') }}" alt=""></a>
                                     <div  id="booking2" class="booking reserve-booking">
                                         <a class="btn" href="#">BO<span>OK</span></a>
                                     </div>
@@ -81,7 +80,7 @@
                             <div  id="booking"  class="booking">
                                 <a class="btn" href="#">BO<span>OK</span></a>
                             </div>
-                            <a href="{{ Route ('home') }}"><img src="{{ asset('user/images/logo1.png') }}" alt="" /></a>
+                            <a href="{{ Route ('home') }}"><img src="{{ asset('user/images/logo1.png') }}" alt="" ></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +91,7 @@
                                 <div class="navbar navbar-default" role="navigation">
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                                            <span class="sr-only">Toggle navigation</span>
+                                           <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
@@ -215,7 +214,6 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-10">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="{{ asset('user/images/logo-2.png') }}" alt=""></a>
                                     <div class="booking reserve-booking">
                                         <a class="btn" href="#">BO<span>OK</span></a>
                                     </div>

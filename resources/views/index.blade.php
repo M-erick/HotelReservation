@@ -41,7 +41,7 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-10">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="{{asset('user/images/logo-2.png') }}" alt=""></a>
+                                    <a href="index-2.html"><img src="{{asset('user/images/logo1.png') }}" alt=""></a>
                                     <div  id="booking2" class="booking reserve-booking">
                                         <a class="btn" href="#">BO<span>OK</span></a>
                                     </div>

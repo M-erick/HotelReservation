@@ -36,13 +36,13 @@ span,
 .full-navgtion-left ul li a:hover,
 .full-navgtion-left ul li:hover a,
 .full-navgtion-left ul li i,
-.enter-search p,
+/*.enter-search p,*/
 .search-enjoy p,
 .reserve-hotel-detail .text-box p,
 .modifay-booking .modifay-innr a:hover,
 /*.banner-2 .banner-text .text-box h1,*/
 .ourpackage-inare .text-box h3 a:hover,
-.reserve-hotel-detail .booking-1 .booking-depa label,
+/*.reserve-hotel-detail .booking-1 .booking-depa label,*/
 .bainner-home .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,
 /*#footer p span,
@@ -61,7 +61,7 @@ span,
 /*=============================================
            Theme Background Color
 =============================================*/
-.navigation-search a,
+/*.navigation-search a,*/
 .inner-news,
 .wellness-price .table-holder table thead tr th,
 .blog-exiting .blog-more h3 a:before,

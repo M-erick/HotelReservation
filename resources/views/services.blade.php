@@ -283,11 +283,7 @@
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="footer-inner">
-                                <img src="{{ asset('user/images/footer-logo@push ('@push ('name')
-                                    name
-                                @endpush')
-
-                                @endpush.png') }}" alt="" />
+                                <img src="{{ asset('user/images/footer-logo.png') }}" alt="" />
                                 <p><span>E & M - </span>Copyright 2023. Developed by <a href="#">Emilly</a></p>
                             </div>
                         </div>
