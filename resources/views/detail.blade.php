@@ -1,29 +1,27 @@
 <!doctype html>
-<html class="no-js" lang="">
-
+ <html class="no-js" lang="">
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Our Services</title>
+        <title>Services-Details</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--Style Sheets-->
-
-        <link rel="apple-touch-icon" href="{{ asset('user/apple-touch-icon.png') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/normalize.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/owl.carousel.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/owl.theme.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/font-awesome.min.css') }}">
-       <link rel="stylesheet" href="{{ asset('user/css/style.css') }}">
-       <link rel="stylesheet" href="{{ asset('user/css/jquery-ui.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/main.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/responsive.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/color.css') }}">
-
-        <script src="{{ asset('user/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
+        <link rel="apple-touch-icon" href="{{ asset ('user/apple-touch-icon.png') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/normalize.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/owl.carousel.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/owl.theme.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/font-awesome.min.css') }}">
+       <link rel="stylesheet" href="{{ asset ('user/css/style.css') }}">
+       <link rel="stylesheet" href="{{ asset ('user/css/jquery-ui.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/main.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset ('user/css/color.css') }}">
+        <script src="{{ asset ('user/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
     </head>
+
     <body>
 
         <div class="spinner-wrapper">
@@ -40,7 +38,7 @@
         <div class="full-navgtion">
             <div class="overlay"></div>
             <div class="search-open-inner">
-                <div class="full-header">
+               <div class="full-header">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 col-sm-6 col-xs-12">
@@ -103,7 +101,7 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-3 col-xs-12">
                                 <div class="logo">
-                                    <div  id="booking"   class="booking">
+                                    <div  id="booking" class="booking">
                                         <a class="btn" href="#">BO<span>OK</span></a>
                                     </div>
                                 </div>
@@ -120,78 +118,135 @@
                 </header>
                 <main class="main-containt">
                     <div class="container">
-                        <section class="our-services">
+                        <section class="wellness-spa">
                             <div class="row">
-                                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                                    <div class="hedding">
-                                        <div class="inner-hadding">
-                                            <h2>Our Services</h2>
-                                            <span>Everything. Right, where you need it.</span>
+                                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                                    <section class="hotel-about">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                                                <div class="hedding">
+                                                    <div class="inner-hadding">
+                                                        <h2>Wellness & SPA</h2>
+                                                        <span>Take Time To Relax</span>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <p>Experience the passion of hospitality.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <div class="services-inner">
-                                        <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image1.jpg') }}" alt="" /></a>
+                                        <div class="hotel-about-inner">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="image-holder">
+                                                        <img src="{{ asset ('user/images/wellness-spa-image.jpg') }}" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="about-inner-colum">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="about-inner-colum">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="text-box">
-                                            <h3><a href="{{ Route ('detail') }}">Hotel Parking</a></h3>
+                                    </section>
+                                    <section class="wellness-spa-inner">
+                                        <div class="wellness-sec">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="wellness-sec-innr"><p><span></span></p></div>
+                                                </div>
+                                            </div>
+                                            <div class="wellness-holder clearfix">
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <div class="row">
+                                                        <div class="imge-holder">
+                                                            <img src="{{ asset ('user/images/wellness-spa-innr-img1.jpg') }}" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <div class="row">
+                                                        <div class="imge-holder">
+                                                            <img src="{{ asset ('user/images/wellness-spa-innr-img2.jpg') }}" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <div class="row">
+                                                        <div class="imge-holder">
+                                                            <img src="{{ asset ('user/images/wellness-spa-innr-img3.jpg') }}" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p>Whether you’re looking to incorporate spa services into your skincare routine or you need a self-care day, these spa treatments offer something for everyone! The world of spa services is always evolving, allowing you to target your exact needs and explore the diverse world of spa treatments.</p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <div class="services-inner">
-                                        <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image2.jpg') }}" alt="" /></a>
+                                        <div class="wellness-price">
+                                            <div class="table-holder">
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Spa And Wellness</th>
+                                                            <th>Price</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Facial Treatment</td>
+                                                            <td><p>Ksh 3000 </p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Full-Body Massage </td>
+                                                            <td><p>Ksh 6700 </p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Infrared Sauna</td>
+                                                            <td><p>Ksh 7200</p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Hot Stone Massage</td>
+                                                            <td><p>Ksh 6000</p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Laundry Services</td>
+                                                            <td><p>Ksh 4800</p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Body Waxing</td>
+                                                            <td><p>Ksh 5000</p></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
-                                        <div class="text-box">
-                                            <h3><a href="{{ Route ('detail') }}">Self-Care</a></h3>
+                                    </section>
+                                    <!--<div class="newslatter-section">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="inner-news">
+                                                    <div class="row">
+                                                        <div class="col-md-5">
+                                                            <h3>subscribe newsletter</h3>
+                                                            <P>Single Room</p>
+                                                        </div>
+                                                        <div class="col-md-7">
+                                                            <form>
+                                                                <input type="text" placeholder="Your Email Address"/>
+                                                                <input type="submit" value="GO" />
+                                                                <div class="doots"></div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <div class="services-inner">
-                                        <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image3.jpg') }}" alt="" /></a>
-                                        </div>
-                                        <div class="text-box">
-                                            <h3><a href="{{ Route ('detail') }}">Private Gym</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <div class="services-inner">
-                                        <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image4.jpg') }}" alt="" /></a>
-                                        </div>
-                                        <div class="text-box">
-                                            <h3><a href="{{ Route ('detail') }}">Free internet Wifi</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <div class="services-inner">
-                                        <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image5.jpg') }}" alt="" /></a>
-                                        </div>
-                                        <div class="text-box">
-                                            <h3><a href="{{ Route ('detail') }}">Room Service</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <div class="services-inner">
-                                        <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image6.jpg') }}" alt="" /></a>
-                                        </div>
-                                        <div class="text-box">
-                                            <h3><a href="{{ Route ('detail') }}">Online reservation</a></h3>
-                                        </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </section>
@@ -204,8 +259,8 @@
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="footer-inner">
-                                <img src="{{ asset('user/images/footer-logo-1.png') }}" alt="" />
-                                <p><span>E & M - </span>Copyright 2023. Developed by <a href="{{ Route ('home') }}">Emilly</a></p>
+                                <img src="{{ asset ('user/images/footer-logo-1.png') }}" alt="" />
+                                <p><span>E & M- </span>Copyright 2016. Developed by <a href="#">EMILLY</a></p>
                             </div>
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12">
@@ -231,7 +286,7 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-10">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="{{ asset('user/images/logo-2.png') }}" alt=""></a>
+                                    <a href="index-2.html"><img src="{{ asset ('user/images/logo-2.png') }}" alt=""></a>
                                     <div class="booking reserve-booking">
                                         <a class="btn" href="#">BO<span>OK</span></a>
                                     </div>
@@ -332,19 +387,19 @@
                 </div>
             </div>
         </div>
-        <script src="{{ asset('user/js/vendor/jquery.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/jquery-ui.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/isotope.pkgd.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/scrollreveal.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/jquery.appear.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/custom.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/parallax.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/masonry-horizontal.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/classie.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/jquery.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/jquery-ui.min.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/bootstrap.min.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/isotope.pkgd.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/scrollreveal.min.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/jquery.appear.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/custom.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/parallax.min.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/masonry-horizontal.js') }}"></script>
+        <script src="{{ asset ('user/js/vendor/classie.js') }}"></script>
 
-        <script src="{{ asset('user/js/main.js') }}"></script>
+        <script src="{{ asset ('user/js/main.js') }}"></script>
     </body>
 
 </html>

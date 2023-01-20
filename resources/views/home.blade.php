@@ -300,13 +300,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <ul>
-                                        <li><i class="fa fa-play-circle-o"></i> <a href="#">Search Open Page</a></li>
-                                        <li><i class="fa fa-play-circle-o"></i> <a href="wellness-and-spa.html">Wellness & Spa</a></li>
-                                        <li><i class="fa fa-play-circle-o"></i> <a href="booking-room-selector.html">Booking Page</a></li>
-                                        <li><i class="fa fa-play-circle-o"></i> <a href="booking-details.html">Booking Detail</a></li>
-                                        <li><i class="fa fa-play-circle-o"></i> <a href="contact-us.html">Contact And Directions</a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>

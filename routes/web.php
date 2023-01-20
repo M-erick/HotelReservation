@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\HomeController;
-
+use App\Http\Controllers\DetailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,3 +37,4 @@ Route::middleware
 
 Route::get('services', [ServicesController::class, 'services'])->name('services');
 Route::get('home', [HomeController::class, 'home'])->name('home');
+Route::get('detail',[DetailController::class, 'detail'])->name('detail');

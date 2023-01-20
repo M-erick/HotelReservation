@@ -450,7 +450,7 @@ figure {margin: 0;}
          Footer start
 *************************************/
 #footer{
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(255, 255, 255, 0.363);
     text-align: center;
     padding: 5px 0;
     clear: both;
@@ -716,6 +716,7 @@ figure {margin: 0;}
     background-color: rgba(0, 0, 0, 0.7);
 
 }
+
 #xp-footer .footer-inner p{
     color: #fff;
     font-size: 13px;
@@ -730,7 +731,8 @@ figure {margin: 0;}
     height: 50%;
 }
 #xp-footer .footer-inner span,
-#xp-footer .footer-inner a{
+#xp-footer .footer-inner a
+{
     font-family: tinos;
     color: #fcfcfc;
 }
@@ -856,15 +858,16 @@ figure {margin: 0;}
     padding: 31px 97px 25px;
 }
 .wellness-price .table-holder table tbody tr td{
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     padding: 14px 97px 18px;
+    font-weight: 700;
 }
 .wellness-price .table-holder table tbody tr td p{
     font-size: 16px;
     font-weight: 700;
-    color: #555;
+    color: rgb(255, 255, 255);
 }
 .wellness-price .table-holder table tbody tr td p span{
     font-size: 12px;
@@ -872,8 +875,12 @@ figure {margin: 0;}
     color: #a6a5a5;
     text-decoration: line-through;
 }
-tr:nth-child(even) {background: #f9f9f9}
-tr:nth-child(odd) {background: #efefef}
+.wellness-holder.clearfix ~ p {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 65px;
+}
+tr {background: #424040}
 /************************************
         Package Detail start
 *************************************/
@@ -2131,11 +2138,6 @@ input option, fieldset.booking-1>div:not(.input-submit) select option {
     transition: all .3s linear;
 }
 .full-navigation-inner .row > div:last-child .full-navgtion-left {padding-left: 0;}
-.wellness-holder.clearfix ~ p {
-    font-size: 15px;
-    line-height: 25px;
-    padding: 0 65px;
-}
 .blog-more > h3 {
     color: #333;
     font-size: 26px;

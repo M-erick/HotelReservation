@@ -12,7 +12,6 @@ span,
 .hotels-team-inner .team-colum h4,
 .ourpackage-inare .text-box p,
 .ourpackage-inare .text-box ul li a,
-.services-inner .text-box p,
 .package-price .badroom-package p,
 .package-detail-left .price-detail p,
 .room-feature p,
@@ -58,7 +57,6 @@ span,
 =============================================*/
 /*.navigation-search a,*/
 .inner-news,
-.wellness-price .table-holder table thead tr th,
 .blog-exiting .blog-more h3 a:before,
 .blog-detail .blog-more h4:after,
 .contact-us-detail ul li i,
@@ -73,8 +71,15 @@ span,
 .full-navgtion-left ul li a:hover,
 #xp-footer .footer-inner ul li a:hover,
 #xp-footer .footer-inner span,
-#xp-footer .footer-inner a
+#xp-footer .footer-inner a,
+.services-inner .text-box p
+
 
 {
     color: white;
+}
+
+.wellness-price .table-holder table thead tr th
+{
+    background-color: rgba(0, 0, 0, 0.699);
 }
