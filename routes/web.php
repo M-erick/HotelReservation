@@ -33,6 +33,7 @@ Route::middleware
         return view('dashboard');
     })->name('dashboard');
 });
+// Replace the home page with dashboard homepage
 
 
 Route::get('services', [ServicesController::class, 'services'])->name('services');
