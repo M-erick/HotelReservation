@@ -33,6 +33,10 @@ Route::middleware
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/Login',function() {
+    return view('/auth/login');
+})->name('Login');
 // Replace the home page with dashboard homepage
 
 
