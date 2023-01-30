@@ -11,19 +11,31 @@
                 </div>
 
                 <!-- Navigation Links -->
+                {{-- replace the home with dashboard --}}
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                    <x-jet-nav-link href="{{ Route ('home') }}" :active="request()->routeIs('home')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('dashboard') }}">
-                        {{ __('Meeting &Events') }}
+                    <x-jet-nav-link href="{{ Route ('services') }}">
+                        {{ __('Services') }}
                     </x-jet-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('dashboard') }}">
-                        {{ __('Tour Packages') }}
+                        {{ __('Packages') }}
+                    </x-jet-nav-link>
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('dashboard') }}">
+                        {{ __('About') }}
+                    </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('dashboard') }}">
+                        {{ __('Contact') }}
                     </x-jet-nav-link>
                 </div>
             </div>
@@ -169,13 +181,24 @@
 
         <div class="pt-2 pb-3 space-y-1">
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}">
-                {{ __('Meeting &Events') }}
+                {{ __('Services') }}
             </x-jet-responsive-nav-link>
         </div>
 
         <div class="pt-2 pb-3 space-y-1">
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}">
-                {{ __('Tour Packages') }}
+                {{ __('Packages') }}
+            </x-jet-responsive-nav-link>
+        </div>
+
+        <div class="pt-2 pb-3 space-y-1">
+            <x-jet-responsive-nav-link href="{{ route('dashboard') }}">
+                {{ __('About') }}
+            </x-jet-responsive-nav-link>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <x-jet-responsive-nav-link href="{{ route('dashboard') }}">
+                {{ __('Contact') }}
             </x-jet-responsive-nav-link>
         </div>
 
