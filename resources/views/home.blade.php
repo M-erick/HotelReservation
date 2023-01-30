@@ -9,19 +9,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Style Sheets-->
 
-        <link rel="apple-touch-icon" href="{{ asset('user/apple-touch-icon.png') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/normalize.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/owl.carousel.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/owl.theme.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/font-awesome.min.css') }}">
-       <link rel="stylesheet" href="{{ asset('user/css/style.css') }}">
-       <link rel="stylesheet" href="{{ asset('user/css/jquery-ui.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/main.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/responsive.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/color.css') }}">
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+       <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+       <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/color.css') }}">
 
-        <script src="{{ asset('user/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
 
     </head>
     <body>
@@ -80,7 +80,7 @@
                             <div  id="booking"  class="booking">
                                 <a class="btn" href="#">BO<span>OK</span></a>
                             </div>
-                            <a href="{{ Route ('home') }}"><img src="{{ asset('user/images/logo1.png') }}" alt="" ></a>
+                            <a href="{{ Route ('home') }}"><img src="{{ asset('images/logo1.png') }}" alt="" ></a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
             <section id="banner" class="banner-2">
                 <div class="bainner-home">
                     <div id="owl-demo" class="owl-carousel owl-theme">
-                        <div class="item" style="background: url('{{ asset('user/images/home-bg.jpg') }}') center no-repeat; background-size: cover; ">
+                        <div class="item" style="background: url('{{ asset('images/home-bg.jpg') }}') center no-repeat; background-size: cover; ">
                             <div class="ovrlay"></div>
                             <div class="banner-text">
                                 <div class="chid-pernt">
@@ -150,7 +150,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item" style="background: url('{{ asset('user/images/homae-bg.jpg') }}') center no-repeat; background-size: cover; ">
+                        <div class="item" style="background: url('{{ asset('images/homae-bg.jpg') }}') center no-repeat; background-size: cover; ">
                             <div class="ovrlay"></div>
                             <div class="banner-text">
                                 <div class="chid-pernt">
@@ -171,7 +171,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item" style="background: url('{{ asset('user/images/home.jpg') }}') center no-repeat; background-size: cover; ">
+                        <div class="item" style="background: url('{{ asset('images/home.jpg') }}') center no-repeat; background-size: cover; ">
                             <div class="ovrlay"></div>
                             <div class="banner-text">
                                 <div class="chid-pernt">
@@ -309,19 +309,19 @@
                 </div>
             </div>
         </div>
-        <script src="{{ asset('user/js/vendor/jquery.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/jquery-ui.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/isotope.pkgd.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/scrollreveal.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/jquery.appear.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/custom.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/parallax.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/masonry-horizontal.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/classie.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery-ui.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/isotope.pkgd.js') }}"></script>
+        <script src="{{ asset('js/vendor/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/scrollreveal.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.appear.js') }}"></script>
+        <script src="{{ asset('js/vendor/custom.js') }}"></script>
+        <script src="{{ asset('js/vendor/parallax.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/masonry-horizontal.js') }}"></script>
+        <script src="{{ asset('js/vendor/classie.js') }}"></script>
 
-        <script src="{{ asset('user/js/main.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
     </body>
 
 </html>
