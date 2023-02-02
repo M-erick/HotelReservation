@@ -13,18 +13,45 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+        <script src="{{ asset('js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery-ui.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/isotope.pkgd.js') }}"></script>
+        <script src="{{ asset('js/vendor/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/scrollreveal.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.appear.js') }}"></script>
+        <script src="{{ asset('js/vendor/custom.js') }}"></script>
+        <script src="{{ asset('js/vendor/parallax.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/masonry-horizontal.js') }}"></script>
+        <script src="{{ asset('js/vendor/classie.js') }}"></script>
+
+        <script src="{{ asset('js/main.js') }}"></script>
+
         <!-- Styles -->
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+        {{-- Determine the error that's causing the stylesheet below to affect navbar --}}
+        {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"> --}}
+        <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+       <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+       <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/color.css') }}">
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen ">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow">
+                <header class="bg-black ">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
