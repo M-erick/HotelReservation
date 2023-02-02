@@ -10,19 +10,19 @@
 
         <!--Style Sheets-->
 
-        <link rel="apple-touch-icon" href="{{ asset('user/apple-touch-icon.png') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/normalize.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/owl.carousel.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/owl.theme.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/font-awesome.min.css') }}">
-       <link rel="stylesheet" href="{{ asset('user/css/style.css') }}">
-       <link rel="stylesheet" href="{{ asset('user/css/jquery-ui.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/main.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/responsive.css') }}">
-        <link rel="stylesheet" href="{{ asset('user/css/color.css') }}">
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+       <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+       <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/color.css') }}">
 
-        <script src="{{ asset('user/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
     </head>
     <body>
 
@@ -136,7 +136,7 @@
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <div class="services-inner">
                                         <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image1.jpg') }}" alt="" /></a>
+                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('images/services-image1.jpg') }}" alt="" /></a>
                                         </div>
                                         <div class="text-box">
                                             <h3><a href="{{ Route ('detail') }}">Hotel Parking</a></h3>
@@ -146,7 +146,7 @@
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <div class="services-inner">
                                         <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image2.jpg') }}" alt="" /></a>
+                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('images/services-image2.jpg') }}" alt="" /></a>
                                         </div>
                                         <div class="text-box">
                                             <h3><a href="{{ Route ('detail') }}">Self-Care</a></h3>
@@ -156,7 +156,7 @@
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <div class="services-inner">
                                         <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image3.jpg') }}" alt="" /></a>
+                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('images/services-image3.jpg') }}" alt="" /></a>
                                         </div>
                                         <div class="text-box">
                                             <h3><a href="{{ Route ('detail') }}">Private Gym</a></h3>
@@ -166,7 +166,7 @@
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <div class="services-inner">
                                         <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image4.jpg') }}" alt="" /></a>
+                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('images/services-image4.jpg') }}" alt="" /></a>
                                         </div>
                                         <div class="text-box">
                                             <h3><a href="{{ Route ('detail') }}">Free internet Wifi</a></h3>
@@ -176,7 +176,7 @@
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <div class="services-inner">
                                         <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image5.jpg') }}" alt="" /></a>
+                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('images/services-image5.jpg') }}" alt="" /></a>
                                         </div>
                                         <div class="text-box">
                                             <h3><a href="{{ Route ('detail') }}">Room Service</a></h3>
@@ -186,7 +186,7 @@
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <div class="services-inner">
                                         <div class="image-holder">
-                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('user/images/services-image6.jpg') }}" alt="" /></a>
+                                            <a href="{{ Route ('detail') }}"><img src="{{ asset('images/services-image6.jpg') }}" alt="" /></a>
                                         </div>
                                         <div class="text-box">
                                             <h3><a href="{{ Route ('detail') }}">Online reservation</a></h3>
@@ -204,7 +204,7 @@
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="footer-inner">
-                                <img src="{{ asset('user/images/footer-logo-1.png') }}" alt="" />
+                                <img src="{{ asset('images/footer-logo-1.png') }}" alt="" />
                                 <p><span>E & M - </span>Copyright 2023. Developed by <a href="{{ Route ('home') }}">Emilly</a></p>
                             </div>
                         </div>
@@ -231,7 +231,7 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-10">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="{{ asset('user/images/logo-2.png') }}" alt=""></a>
+                                    <a href="index-2.html"><img src="{{ asset('images/logo-2.png') }}" alt=""></a>
                                     <div class="booking reserve-booking">
                                         <a class="btn" href="#">BO<span>OK</span></a>
                                     </div>
@@ -332,19 +332,19 @@
                 </div>
             </div>
         </div>
-        <script src="{{ asset('user/js/vendor/jquery.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/jquery-ui.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/isotope.pkgd.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/scrollreveal.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/jquery.appear.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/custom.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/parallax.min.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/masonry-horizontal.js') }}"></script>
-        <script src="{{ asset('user/js/vendor/classie.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery-ui.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/isotope.pkgd.js') }}"></script>
+        <script src="{{ asset('js/vendor/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/scrollreveal.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/jquery.appear.js') }}"></script>
+        <script src="{{ asset('js/vendor/custom.js') }}"></script>
+        <script src="{{ asset('js/vendor/parallax.min.js') }}"></script>
+        <script src="{{ asset('js/vendor/masonry-horizontal.js') }}"></script>
+        <script src="{{ asset('js/vendor/classie.js') }}"></script>
 
-        <script src="{{ asset('user/js/main.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
     </body>
 
 </html>
