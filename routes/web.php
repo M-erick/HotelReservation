@@ -37,6 +37,10 @@ Route::middleware
 Route::get('/Login',function() {
     return view('/auth/login');
 })->name('Login');
+
+Route::get('/registration',function() {
+    return view('/auth/register');
+})->name('registration');
 // Replace the home page with dashboard homepage
 
 
